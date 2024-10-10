@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav .menu a:hover {
+    text-decoration: underline;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.main-section .content {
+    max-width: 50%;
+}
+
+.main-section .content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.main-section .content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.main-section .content button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.main-section .content button:hover {
+    background-color: #555;
+}
+
+.main-section .image img {
+    width: 400px;
+    height: auto;
+    border: 5px solid #ddd;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.kpop-section {
+    padding: 50px;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.kpop-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.kpop-section p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

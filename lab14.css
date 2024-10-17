@@ -67,7 +67,7 @@ button{
 input {
     border-radius: 5px;
     border-width: 0;
-    background-color: rgb(215, 207, 207);
+    background-color: rgb(209, 209, 209);
     font-family: inherit;
     padding: 7px 10px;
     width: 250px;
@@ -95,7 +95,7 @@ tr{
 
 tr:has(th){
     border-bottom: #828282 solid 1px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(209, 209, 209);
 }
 
 th,td{
